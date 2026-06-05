@@ -18,9 +18,9 @@ const realisations = {
     challenge: "Le défi principal était d'installer les bureaux tout en maintenant les opérations portuaires actives. Nous avons travaillé en étroite coordination avec l'équipe du port pour minimiser les perturbations.",
     solution: "Nous avons pré-fabriqué tous les modules dans notre atelier avant de procéder à l'installation sur site en un temps record de 3 jours.",
     images: [
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80"
+      "/images/realisations/interieur-conteneur-1.jpg",
+      "/images/realisations/interieur-conteneur-2.jpg",
+      "/images/realisations/interieur-conteneur-3.jpg"
     ],
     features: [
       "10 bureaux individuels climatisés",
@@ -42,9 +42,9 @@ const realisations = {
     challenge: "Le terrain présentait des contraintes géotechniques nécessitant une fondation spéciale. De plus, le client avait des exigences strictes en matière de délais.",
     solution: "Notre équipe d'ingénieurs a conçu une structure optimisée permettant de réduire les coûts tout en respectant toutes les normes de sécurité.",
     images: [
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+      "/images/realisations/batiment-modulaire-escalier.jpg",
+      "/images/realisations/soudure-metallique.jpg",
+      "/images/realisations/structure-beton-arme.jpg"
     ],
     features: [
       "Surface couverte de 500m²",
@@ -66,9 +66,9 @@ const realisations = {
     challenge: "Les travaux devaient être réalisés sans perturber le fonctionnement de l'hôtel, ce qui nécessitait un planning précis et une exécution minutieuse.",
     solution: "Nous avons travaillé par phases, rénovant les chambres par blocs tout en maintenant une capacité d'accueil suffisante pour l'hôtel.",
     images: [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
+      "/images/realisations/interieur-conteneur-2.jpg",
+      "/images/realisations/interieur-conteneur-3.jpg",
+      "/images/realisations/pose-vitrage.jpg"
     ],
     features: [
       "50 chambres rénovées",
@@ -90,9 +90,9 @@ const realisations = {
     challenge: "Assurer une disponibilité permanente des pièces et une intervention rapide sur tout le territoire national.",
     solution: "Nous avons mis en place un stock stratégique et des équipes d'intervention mobiles dans chaque région.",
     images: [
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80"
+      "/images/realisations/installation-barrieres.jpg",
+      "/images/realisations/cloture-metallique-port.jpg",
+      "/images/realisations/equipe-chantier.jpg"
     ],
     features: [
       "Plus de 200 sites couverts",
@@ -114,9 +114,9 @@ const realisations = {
     challenge: "L'accès difficile au site et les conditions climatiques difficiles ont représenté des défis logistiques importants.",
     solution: "Nous avons optimisé le transport en assemblant un maximum d'éléments en atelier et en planifiant les livraisons pendant la saison sèche.",
     images: [
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80",
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80"
+      "/images/realisations/transformation-conteneurs.jpg",
+      "/images/realisations/batiment-modulaire-escalier.jpg",
+      "/images/realisations/interieur-conteneur-1.jpg"
     ],
     features: [
       "Capacité 100 personnes",
@@ -138,9 +138,9 @@ const realisations = {
     challenge: "L'escalier devait s'intégrer parfaitement à l'architecture moderne du bâtiment tout en respectant les normes de sécurité strictes.",
     solution: "Notre bureau d'études a travaillé en collaboration avec l'architecte pour concevoir un escalier alliant esthétique et fonctionnalité.",
     images: [
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+      "/images/realisations/soudure-metallique.jpg",
+      "/images/realisations/structure-beton-arme.jpg",
+      "/images/realisations/cloture-metallique-port.jpg"
     ],
     features: [
       "Escalier hélicoïdal 4 niveaux",
@@ -162,9 +162,9 @@ const realisations = {
     challenge: "Les normes hospitalières imposaient des exigences très élevées en matière de finitions et de matériaux utilisés.",
     solution: "Nous avons utilisé des plaques BA13 hydrofuges et des bandes d'isolation spéciales pour garantir la conformité aux normes.",
     images: [
-      "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80",
-      "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80"
+      "/images/realisations/interieur-conteneur-3.jpg",
+      "/images/realisations/interieur-conteneur-1.jpg",
+      "/images/realisations/pose-vitrage.jpg"
     ],
     features: [
       "Cloisons hydrofuges certifiées",
@@ -186,9 +186,9 @@ const realisations = {
     challenge: "La période de campagne sucrière impose une disponibilité maximale des équipements, sans tolérance pour les pannes.",
     solution: "Nous avons mis en place un programme de maintenance préventive strict et un stock de sécurité pour garantir zéro temps d'arrêt.",
     images: [
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80",
-      "https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=800&q=80",
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80"
+      "/images/realisations/structure-beton-arme.jpg",
+      "/images/realisations/equipe-chantier.jpg",
+      "/images/realisations/installation-barrieres.jpg"
     ],
     features: [
       "Maintenance préventive planifiée",
@@ -210,9 +210,9 @@ const realisations = {
     challenge: "Créer un espace commercial attractif et fonctionnel dans un volume restreint, tout en respectant les contraintes thermiques.",
     solution: "Nous avons optimisé chaque centimètre carré et installé une isolation renforcée avec climatisation performante.",
     images: [
-      "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80",
-      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80",
-      "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=800&q=80"
+      "/images/realisations/pose-vitrage.jpg",
+      "/images/realisations/transformation-conteneurs.jpg",
+      "/images/realisations/interieur-conteneur-2.jpg"
     ],
     features: [
       "Container 40 pieds HC",
