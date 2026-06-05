@@ -1,11 +1,13 @@
 "use client"
 
 import { motion } from "framer-motion"
-
+import conteneur from "../public/images/conteneur.png"
+import realisation from "../public/images/realisation2.png"
+import produits from "../public/images/produits.png"
 const projects = [
   {
     title: "AMÉNAGEMENT DE CONTENEURS",
-    image: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?q=80&w=2070&auto=format&fit=crop",
+    image: conteneur.src,
   },
   {
     title: "STRUCTURES MÉTALLIQUES",
@@ -13,7 +15,7 @@ const projects = [
   },
   {
     title: "TRAVAUX BA13",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2070&auto=format&fit=crop",
+    image: realisation.src,
   },
   {
     title: "INSTALLATIONS INDUSTRIELLES",
@@ -21,7 +23,7 @@ const projects = [
   },
   {
     title: "FILTRES & ÉQUIPEMENTS LOURDS",
-    image: "https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=2070&auto=format&fit=crop",
+    image: produits.src,
   },
 ]
 

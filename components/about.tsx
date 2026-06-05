@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { motion } from "framer-motion"
 import Link from "next/link"
+import oisss from "../public/images/oisss.png"
 
 export default function About() {
   return (
@@ -19,7 +20,7 @@ export default function About() {
           >
             <div className="relative overflow-hidden rounded-lg shadow-lg">
               <img
-                src="https://images.unsplash.com/photo-1494412651409-8963ce7935a7?q=80&w=2070&auto=format&fit=crop"
+                src={oisss.src}
                 alt="Conteneurs bleus avec logo OIS"
                 className="w-full h-72 md:h-80 object-cover"
               />

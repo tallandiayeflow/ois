@@ -4,6 +4,13 @@ import Image from "next/image"
 import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import { Search, Filter, Phone, ShoppingCart } from "lucide-react"
+import p1 from "@/public/images/p1.png"
+import p2 from "@/public/images/p2.png"
+import p3 from "@/public/images/p3.png"
+import p4 from "@/public/images/p4.png"
+import p5 from "@/public/images/p5.png"
+import p6 from "@/public/images/p6.png"
+
 
 export const metadata: Metadata = {
   title: "Nos Produits | OIS - Optimum International Services",
@@ -25,131 +32,84 @@ const categories = [
   { id: "huile", name: "Filtres à huile" },
   { id: "carburant", name: "Filtres à carburant" },
   { id: "hydraulique", name: "Filtres hydrauliques" },
+  
   { id: "separateur", name: "Séparateurs eau/carburant" },
   { id: "pieces", name: "Pièces de maintenance" },
 ]
 
 const products = [
   {
-    id: "cat-1r-0751",
-    name: "Filtre à Huile CAT 1R-0751",
-    brand: "cat",
-    category: "huile",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "1R-0751",
-    compatibility: "Moteurs CAT C7, C9, C13",
-    inStock: true
-  },
-  {
-    id: "cat-1r-0750",
-    name: "Filtre à Carburant CAT 1R-0750",
-    brand: "cat",
-    category: "carburant",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "1R-0750",
-    compatibility: "Moteurs CAT 3406, 3408",
-    inStock: true
-  },
-  {
-    id: "cat-1r-0749",
-    name: "Filtre à Air CAT 1R-0749",
+    id: "CAT  1517737 ",
+    name: "Filtre à Huile CAT CAT 1517737 ",
     brand: "cat",
     category: "air",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "1R-0749",
-    compatibility: "Pelles CAT 320, 330",
+    image: p1.src,
+    reference: "1R-0751",
+    compatibility: "Filtres à air Cat 1517737",
     inStock: true
   },
   {
-    id: "perkins-26560145",
-    name: "Filtre à Huile Perkins 26560145",
+    id: "CAT 1R1808 ",
+    name: "Filtre à Carburant CAT 1R1808 ",
+    brand: "cat",
+    category: "huile",
+    image: p2.src,
+    reference: "1R-0750",
+    compatibility: "Filtres à huile Cat 1R1808",
+    inStock: true
+  },
+  {
+    id: "CAT 360-8960",
+    name: "Filtre à carburant CAT 360-8960",
+    brand: "cat",
+    category: "carburant",
+    image: p3.src,
+    reference: "1R-0749",
+    compatibility: "CAT 360-8960/  FF5103/ FS1280/ FF5114/ FF5711 / FF5712",
+    inStock: true
+  },
+  {
+    id: "perkins-CH10930 ",
+    name: "Filtre à Huile Perkins CH10930 ",
     brand: "perkins",
     category: "huile",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
+    image: p4.src,
     reference: "26560145",
     compatibility: "Moteurs Perkins 1100, 1104",
     inStock: true
   },
-  {
-    id: "perkins-26561117",
-    name: "Filtre à Carburant Perkins 26561117",
+   {
+    id: "perkins-CH10931",
+    name: "Filtre à Huile Perkins CH10931",
     brand: "perkins",
+    category: "huile",
+    image: p4.src,
+    reference: "26560145",
+    compatibility: "filtre à carburant Perkins CH10931 / 26560146",
+    inStock: true
+  },
+  {
+    id: "Fleetguard FS1212",
+    name: "Séparateur d'eau/carburant Fleetguard FS1212",
+    brand: "fleetguard",
     category: "carburant",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "26561117",
-    compatibility: "Moteurs Perkins 400 Series",
+    image: p5.src,
+    reference: "FS1212",
+    compatibility: "séparateur d'eau de carburant",
     inStock: false
   },
   {
-    id: "fleetguard-lf9009",
-    name: "Filtre à Huile Fleetguard LF9009",
+    id: "AIR AF26185 ",
+    name: "Filtre à air Fleetguard AF26185 ",
     brand: "fleetguard",
-    category: "huile",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "LF9009",
-    compatibility: "Cummins ISX, ISM",
-    inStock: true
-  },
-  {
-    id: "fleetguard-ff5052",
-    name: "Filtre à Carburant Fleetguard FF5052",
-    brand: "fleetguard",
-    category: "carburant",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "FF5052",
-    compatibility: "Cummins B Series",
-    inStock: true
-  },
-  {
-    id: "fleetguard-fs1000",
-    name: "Séparateur Eau/Carburant Fleetguard FS1000",
-    brand: "fleetguard",
-    category: "separateur",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "FS1000",
-    compatibility: "Applications universelles",
-    inStock: true
-  },
-  {
-    id: "donaldson-p550625",
-    name: "Filtre à Huile Donaldson P550625",
-    brand: "donaldson",
-    category: "huile",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "P550625",
-    compatibility: "CAT, Cummins, Detroit",
-    inStock: true
-  },
-  {
-    id: "donaldson-p551807",
-    name: "Filtre Hydraulique Donaldson P551807",
-    brand: "donaldson",
-    category: "hydraulique",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "P551807",
-    compatibility: "Systèmes hydrauliques industriels",
-    inStock: true
-  },
-  {
-    id: "cummins-3931063",
-    name: "Filtre à Air Cummins 3931063",
-    brand: "cummins",
     category: "air",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "3931063",
-    compatibility: "Cummins 6BT, 6CT",
+    image: p6.src,
+    reference: "LF9009",
+    compatibility: "Filtre à air Fleetguard AF26185 / LF9009",
     inStock: true
   },
-  {
-    id: "cummins-3937736",
-    name: "Filtre à Huile Cummins 3937736",
-    brand: "cummins",
-    category: "huile",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=400&q=80",
-    reference: "3937736",
-    compatibility: "Cummins ISB, QSB",
-    inStock: false
-  },
+  
+  
 ]
 
 export default function ProduitsPage() {

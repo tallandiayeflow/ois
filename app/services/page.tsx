@@ -7,7 +7,9 @@ import Navbar from "@/components/navbar"
 import Footer from "@/components/footer"
 import PageHeader from "@/components/page-header"
 import { ArrowRight, Check, Building2, Container, Layers, Filter } from "lucide-react"
-
+import contenur from "@/public/images/conteneur.png"
+import produits from "@/public/images/produits.png"
+import realisation from "@/public/images/realisation1.png"
 const services = [
   {
     id: "second-oeuvre",
@@ -29,7 +31,7 @@ const services = [
     icon: Container,
     title: "Aménagement de Conteneurs",
     description: "Transformation de conteneurs en espaces fonctionnels et modernes.",
-    image: "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=600&q=80",
+    image: contenur.src,
     features: [
       "Bureaux conteneurisés",
       "Bases vie",
@@ -43,7 +45,7 @@ const services = [
     icon: Layers,
     title: "Travaux BA13",
     description: "Installation de cloisons et faux plafonds en plaques de plâtre.",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80",
+    image: realisation.src,
     features: [
       "Cloisons BA13",
       "Faux plafonds",
@@ -57,7 +59,7 @@ const services = [
     icon: Filter,
     title: "Filtres Industriels & Pièces d'Origine",
     description: "Fourniture de filtres et pièces de rechange pour équipements industriels.",
-    image: "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?w=600&q=80",
+    image: produits.src,
     features: [
       "Filtres à air",
       "Filtres à huile",

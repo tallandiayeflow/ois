@@ -4,6 +4,10 @@ import { motion } from "framer-motion"
 import { Check } from "lucide-react"
 import Link from "next/link"
 
+import conteneur from "../public/images/conteneur.png"
+import produits from "../public/images/produits.png"
+import realisation from "../public/images/realisation1.png"
+
 function HouseIcon({ className }: { className?: string }) {
   return (
     <svg className={className} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -55,15 +59,15 @@ const services = [
       "Confection aluminium",
       "Construction métallique",
       "Menuiserie bois",
-      "Escaliers métalliques",
-      "Garde-corps",
+      "Staff",
+      "Carrelage et Peinture ",
       "Portails et portes métalliques",
     ],
   },
   {
     icon: ContainerIcon,
     title: "AMÉNAGEMENT DE CONTENEURS",
-    image: "https://images.unsplash.com/photo-1494412651409-8963ce7935a7?q=80&w=2070&auto=format&fit=crop",
+    image: conteneur.src,
     items: [
       "Bureaux conteneurisés",
       "Base vie",
@@ -75,7 +79,7 @@ const services = [
   {
     icon: LayersIcon,
     title: "TRAVAUX BA13",
-    image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2070&auto=format&fit=crop",
+    image: realisation.src,
     items: [
       "Cloisons BA13",
       "Faux plafonds",
@@ -87,7 +91,7 @@ const services = [
   {
     icon: FilterIcon,
     title: "FILTRES INDUSTRIELS & PIÈCES D'ORIGINE",
-    image: "https://images.unsplash.com/photo-1565043666747-69f6646db940?q=80&w=2070&auto=format&fit=crop",
+    image: produits.src,
     items: [
       "Filtres à air",
       "Filtres à huile",

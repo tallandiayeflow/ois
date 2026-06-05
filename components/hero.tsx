@@ -3,25 +3,26 @@
 import { motion } from "framer-motion"
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
+import hero from "../public/images/hero.png"
 
 export default function Hero() {
   return (
     <section
       id="accueil"
-      className="relative min-h-[600px] md:min-h-[700px] flex items-center justify-start overflow-hidden pt-20"
+      className="relative min-h-[400px] md:min-h-[500px] flex items-center justify-start overflow-hidden pt-20 mt-24 mx-12 sm:mx-16 lg:mx-32 rounded-xl border border-background/20"
     >
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2070&auto=format&fit=crop')`,
+          backgroundImage: `url(${hero.src})`,
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-secondary/90 via-secondary/70 to-secondary/30" />
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
+      <div className="relative z-10 max-w-7xl w-full px-4 sm:px-6 lg:px-8 py-20 md:py-28">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
